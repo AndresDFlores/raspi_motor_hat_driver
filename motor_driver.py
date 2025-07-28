@@ -28,7 +28,7 @@ class MotorDriver():
 		self.motor1 = DCMotor(motor_obj=kit.motor1)  # left motor
 		self.motor2 = DCMotor(motor_obj=kit.motor2)  # right motor
 
-		self.motor_effort = 0.25
+		self.motor_effort = 0.5
 		
 		
 		
